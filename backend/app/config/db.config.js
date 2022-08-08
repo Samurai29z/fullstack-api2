@@ -3,7 +3,7 @@ module.exports = {
     HOST: "localhost",
     USER: "root",
     PASSWORD: "",
-    DB: "foot_api",
+    DB: "footDB",
     dialect: "mysql",
     pool: {
       max: 5,

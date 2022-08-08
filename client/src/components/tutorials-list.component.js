@@ -147,15 +147,39 @@ export default class PlayersList extends Component {
               <h4>Satistiques</h4>
               <div>
                 <label>
-                  <strong>Title:</strong>
+                  <strong>FIRSTNAME:</strong>
                 </label>{" "}
                 {currentplayers.first}
               </div>
               <div>
                 <label>
-                  <strong>first:</strong>
+                  <strong>LASTNAME:</strong>
                 </label>{" "}
-                {currentplayers.first}
+                {currentplayers.last}
+              </div>
+              <div>
+                <label>
+                  <strong>OLD:</strong>
+                </label>{" "}
+                {currentplayers.old}
+              </div>
+              <div>
+                <label>
+                  <strong>WINS:</strong>
+                </label>{" "}
+                {currentplayers.wins}
+              </div>
+              <div>
+                <label>
+                  <strong>LOSSES:</strong>
+                </label>{" "}
+                {currentplayers.losses}
+              </div>
+              <div>
+                <label>
+                  <strong>POINTS_SCORE:</strong>
+                </label>{" "}
+                {currentplayers.points}
               </div>
               <div>
                 <label>
